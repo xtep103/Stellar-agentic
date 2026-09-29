@@ -5,8 +5,8 @@
   "type": "module",
   "description": "Minimal example app exercising @stellaragent/react's hooks",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
+    "dev": "node init && vite",
+    "build": "node init && tsc && vite build",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit"
   },
