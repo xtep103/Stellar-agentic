@@ -6,7 +6,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsup src/index.ts --format esm --dts",
+    "build": "node init && tsup src/index.ts --format esm --dts",
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
     "lint": "eslint src --ext .ts"
@@ -20,7 +20,9 @@
     "@langchain/core": "^0.3.0"
   },
   "peerDependenciesMeta": {
-    "@langchain/core": { "optional": true }
+    "@langchain/core": {
+      "optional": true
+    }
   },
   "devDependencies": {
     "@types/node": "^20.0.0",
