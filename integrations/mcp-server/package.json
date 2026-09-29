@@ -23,8 +23,8 @@
     }
   },
   "scripts": {
-    "build": "tsup src/index.ts src/tools.ts --format esm --dts",
-    "dev": "tsx src/index.ts",
+    "build": "node init && tsup src/index.ts src/tools.ts --format esm --dts",
+    "dev": "node init && tsx src/index.ts",
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
     "lint": "eslint src --ext .ts"
