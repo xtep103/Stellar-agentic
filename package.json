@@ -8,8 +8,8 @@
     "dashboard"
   ],
   "scripts": {
-    "dev": "turbo run dev",
-    "build": "turbo run build",
+    "dev": "node api.js && turbo run dev",
+    "build": "node api.js && turbo run build",
     "test": "turbo run test",
     "test:coverage": "turbo run test:coverage",
     "typecheck": "turbo run typecheck",

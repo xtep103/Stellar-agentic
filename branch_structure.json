@@ -1,0 +1,18 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "main",
+    "origin",
+    "test/amm-swap-failure-paths"
+  ],
+  "parent": {
+    "main": null,
+    "origin": "main",
+    "test/amm-swap-failure-paths": "main"
+  },
+  "order": [
+    "main",
+    "origin",
+    "test/amm-swap-failure-paths"
+  ]
+}
